@@ -18,5 +18,9 @@ clicked.
 ```
 
 ```javascript
-$('.comment').readmore({ limit: 50 });
+$('.comment').readmore({ 
+  limit: 50,
+  moreLinkText: 'Read more',
+  lessLinkText: 'Hide'
+});
 ```
