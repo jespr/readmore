@@ -57,7 +57,7 @@
         this.options.lessLinkText +
         '</a>';
       var hiddenContainer = '<span class="read-more-hidden" style="display: none;">' +
-        element.html().substring(this.options.limit+1, element.html().length) +
+        element.html().substring(this.options.limit, element.html().length) +
         " " +
         readLessLink + "</span>";
 
